@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My site</title>
+	<link rel="stylesheet" href="my_landingPage.css">
+	
+</head>
+
+<body>
+
+	<div class="index">
+		<div class="header">     <!-- ________________header -->
+			<div class="logo">
+				<img src="img/logo2.png" alt="">  <!-- _____________logo -->
+			</div>
+			<div class="name"><h3>МОСКВІТА ВІТАЛІЙ</h3> FRONT-END DEVELOPER</div>
+
+			<div class="menu">        <!-- ________________menu -->
+				<ul>
+					<li><a href=""><img src="img/home.png" alt="" width="20px"></a></li>
+					<li><a href="">Послуги</a></li>
+					<li><a href="">Про мене</a></li>
+					<li><a href="">Мої роботи</a>
+						<ul id="submenu">
+							<li><a href="">подменю</a></li>
+							<li><a href="">подменю</a></li>
+							<li><a href="">подменю</a></li>
+							<li><a href="">подменю</a></li>
+						</ul>
+					</li>
+					<li><a href="">Контакти</a></li>
+				</ul>
+			</div>	
+
+			<div class="tell">
+				<img src="img/tell.jpg" alt="tell" width="21px" > </br>
+				<img src="img/mail.png" alt="" width="21px"></div>
+
+				<div class="tell-text"><p>+380932219530 </br> profitweb@ukr.net </p></div>
+			
+
+			<div class="text-name">     <!-- ________________text -->
+				<h1> РОЗРОБКА  АДАПТИВНИХ САЙТІВ </h1>
+				<h2> LANDING PAGE, ON-LINE SHOP, WEB DESIGN </h2>
+				<h3> Наша команда створена саме для вас. Головною метою співпраці для нас являється ваше задоволення від того, що ви отримаєте саме те, чого бажали. Ми стараємось налагодити контакт із своїми клієнтами не лише для того, щоб краще відчути майбутній технічний функціонал продукту, а й його психологічний вплив на ваших майбутіх клієнтів </h3>
+
+				<div class="button">
+				<input type="button" id="buttonInHeader" value="ЗАМОВИТИ WEB РОЗРОБКУ" onclick="PushButton()">
+				
+					
+				</div>				
+			</div>
+
+
+				<div id="myForm">      <!-- Форма для замовлення (клик батон) -->
+					<p>Введіть контактні дані та ймовірний вид послуг</p>
+
+					<form id="kontact">
+
+						<label for="name"> Ім'я</label><br>
+						<input type="text" id="name"><br><br>
+
+						<label for="lastName"> Прізвище</label><br>
+						<input type="text" id="lastName"><br><br>
+
+						<label for="telNumber"> Skype</label><br>
+						<input type="text" id="telNumber"><br><br>
+
+						<label for="email"> E-mail</label><br>
+						<input type="text" id="email"><br><br>
+					</form>
+
+					<form id="zakaz">
+
+						<label for="lastName"> Landing Page</label>
+						<input type="checkbox" id="lastName"><br><br>
+
+						<label for="lastName"> Прізвище</label>
+						<input type="checkbox" id="lastName"><br><br>
+
+						<label for="lastName"> Прізвище</label>
+						<input type="checkbox" id="lastName"><br><br>
+
+						<label for="lastName"> Прізвище</label>
+						<input type="checkbox" id="lastName"><br><br>
+
+						<label for="telNumber"> Skype</label><br>
+						<input type="text" id="telNumber"><br><br>
+						
+						<label for="email"> E-mail</label><br>
+						<input type="text" id="email"><br><br>
+
+						<label for="name"> Вид послуги</label><br>
+
+						<select name="name">
+						<option value="1">Landing Page</option>
+						<option value="2">Сайт - портфоліо</option>
+						<option value="3">Бізнес сайт</option>
+						<option value="4">Інтернет магазин</option>
+						<option value="5">First</option>
+						</select><br>
+						
+						<input type="button" name="" value="Cancel" onclick="Cancel()">
+						<input type="submit" name="submit" value="Send">
+
+					</form>
+			
+				</div>  
+
+
+		</div> 
+
+		<div class="content">
+			
+			<div>
+				
+			</div>
+
+
+			<div><img src="img/news.png" alt=""><h3>Безплатний прототип</h3><p>Каждый веб-разработчик знает, что такое текст-«рыба». Текст этот, несмотря на название, не имеет никакого отношения к обитателям водоемов.  </p> </div>
+
+			<div><img src="img/bolt.png" alt=""><h3>Швидкодія</h3><p></br>Після вирішення усіх питань ми розпочинаєм розробку сайту, яка триває 1-3 дня (в залежності від складності проекту).</p> </div>
+
+			<div><img src="img/iconR.png" alt=""><h3>Обслуговування сайту</h3><p>Каждый веб-разработчик знает, что такое текст-«рыба». Текст этот, несмотря на название, не  </p></div>
+
+			<div><img src="img/locked.png" alt=""><h3>Гарантія</h3><p></br>Каждый веб-разработчик знает, что такое текст-«рыба». Текст этот, несмотря на название, не имеет никакого отношения  </p></div>
+
+			<div><img src="img/money.png" alt=""><h3>Оптимальні ціни</h3><p></br>Каждый веб-разработчик знает,  </p></div>
+			
+			<div>
+				
+			</div>
+		</div>
+
+	<div class="slider"><p>My works</p>
+			<div class="label">
+				<label for="slide1">1</label>
+				<label for="slide2">2</label>
+				<label for="slide3">3</label>
+			</div>
+
+		<input type="radio" id="slide1" name="slides" >
+			<div class="slide">
+				<div><a href="#"><img src="img/site1.jpg" alt=""></a></div>
+				<div><a href=""><img src="img/site6.jpg" alt=""></a></div>
+				<div><a href=""><img src="img/site3.jpg" alt=""></a></div>
+			</div>
+
+		<input type="radio" id="slide2" name="slides" >
+			<div class="slide">
+				<div><a href="#"><img src="img/site3.jpg" alt=""></a></div>
+				<div><a href=""><img src="img/site5.jpg" alt=""></a></div>
+				<div><a href=""><img src="img/site2.jpg" alt=""></a></div>
+			</div>
+
+			<input type="radio" id="slide3" name="slides" >
+			<div class="slide">
+				<div><a href="#"><img src="img/site6.jpg" alt=""></a></div>
+				<div><a href=""><img src="img/site2.jpg" alt=""></a></div>
+				<div><a href=""><img src="img/site1.jpg" alt=""></a></div>
+			</div>
+				
+			
+	</div>
+
+			<div class="to-work">
+				s
+			</div>
+	
+		  
+	</div>
+
+
+	<script src="my_landingPage.js" ></script>
+</body>
+</html>
